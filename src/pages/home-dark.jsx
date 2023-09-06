@@ -18,6 +18,7 @@ const menuItem = [
   { icon: "fa-comments", menuName: "Blog" },
 ];
 
+
 const HomeDark = () => {
   useEffect(() => {
     document.querySelector("body").classList.remove("rtl");
